@@ -20,14 +20,14 @@ $font-copy: Source Serif Pro
 
 .cf
 	@include clearfix
-	
+
 /* Styles for blog posts */
 @import post.sass
 /* Styles for static pages */
 @import page.sass
 /* Styles for tag pages */
 @import tag.sass
-	
+
 body, html
 	padding: 0
 	margin: 0
@@ -46,7 +46,7 @@ body, html
 	@include respond-to(800)
 		font-size: 17px
 	font-family: $font-copy
-	
+
 .site-wrapper
 	overflow: hidden
 	background-color: #fff
@@ -121,7 +121,7 @@ body, html
 	@include respond-to(800)
 		padding-top: 38%
 	overflow: hidden
-	background-image: radial-gradient(ellipse at top center, lighten($yellow, 25%), rgba(255,255,255,0.38) 62%), radial-gradient(ellipse at top right, lighten($green, 15%), rgba(255,255,255,0.38) 38%), radial-gradient(ellipse at top left, lighten($blue, 15%), rgba(255,255,255,0.38) 38%)	
+	background-image: radial-gradient(ellipse at top center, lighten($white, 25%), rgba(255,255,255,0.38) 62%), radial-gradient(ellipse at top right, lighten($white, 15%), rgba(255,255,255,0.38) 38%), radial-gradient(ellipse at top left, lighten($white, 15%), rgba(255,255,255,0.38) 38%)
 	.teaser
 		text-indent: -9999px
 		position: absolute
@@ -220,7 +220,7 @@ body, html
 		z-index: 99
 		position: relative
 		padding: 0 1rem
-		
+
 .article-spacer
 	width: 38%
 	max-width: 400px
@@ -293,7 +293,7 @@ body, html
 .author-content
 	display: none
 
-.author-template 
+.author-template
 	header.header
 		display: none
 	.author-content
@@ -456,7 +456,7 @@ body, html
 	article:last-child
 		.article-spacer
 			display: none
-				
+
 .paged
 	.header
 		display: none

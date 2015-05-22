@@ -9,7 +9,7 @@
   width: 100%;
   max-width: none; }
 .post-template .wrapper-background {
-  background-image: radial-gradient(ellipse at top center, #ffe483, rgba(255, 255, 255, 0.38) 62%), radial-gradient(ellipse at top right, #b5eb8e, rgba(255, 255, 255, 0.38) 38%), radial-gradient(ellipse at top left, #7ad9fd, rgba(255, 255, 255, 0.38) 38%); }
+  background-image: radial-gradient(ellipse at top center, #FFF, rgba(255, 255, 255, 0.38) 62%), radial-gradient(ellipse at top right, #FFF, rgba(255, 255, 255, 0.38) 38%), radial-gradient(ellipse at top left, #FFF, rgba(255, 255, 255, 0.38) 38%); }
 
 .highlight-header.post-head {
   margin: 0 auto;
@@ -512,8 +512,6 @@
 .tag-template .content, .author-template .content {
   width: 100%;
   max-width: none; }
-.tag-template .wrapper-background, .author-template .wrapper-background {
-  background-image: radial-gradient(ellipse at top center, #ffe483, rgba(255, 255, 255, 0.38) 62%), radial-gradient(ellipse at top right, #b5eb8e, rgba(255, 255, 255, 0.38) 38%), radial-gradient(ellipse at top left, #7ad9fd, rgba(255, 255, 255, 0.38) 38%); }
 
 .tag-template .nav, .author-template .nav {
   position: absolute;
@@ -870,7 +868,7 @@ body, html {
   max-height: 700px;
   padding-top: 62%;
   overflow: hidden;
-  background-image: radial-gradient(ellipse at top center, #ffe483, rgba(255, 255, 255, 0.38) 62%), radial-gradient(ellipse at top right, #b5eb8e, rgba(255, 255, 255, 0.38) 38%), radial-gradient(ellipse at top left, #7ad9fd, rgba(255, 255, 255, 0.38) 38%); }
+  background-image: radial-gradient(ellipse at top center, #FFF, rgba(255, 255, 255, 0.38) 62%), radial-gradient(ellipse at top right, #FFF, rgba(255, 255, 255, 0.38) 38%), radial-gradient(ellipse at top left, #FFF, rgba(255, 255, 255, 0.38) 38%); }
   @media only screen and (min-width: 800px) {
     .header {
       padding-top: 38%; } }
