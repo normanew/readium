@@ -1,12 +1,23 @@
 # Readium 3
 
+## Official Description
+
 **The (the good parts) Medium-like theme for [Ghost](https://github.com/TryGhost)**. I took the good parts of Medium to bring you a similar reading and blogging experience while giving you the freedom to host your content on your own servers and on your own terms. In contrast to the previous version of Readium this one isn't a copy of Medium any more. Readium 3.0 sets out to be different than Medium (I have read so many Medium articles, that I can't stand them any more), while keeping what is good and building upon it. Readium now has it's own charm. It will always be somewhat similar (hopyfully better!), but never again will it be the same.
 
-**Check out [Sven Reads Blog](http://www.svenread.com) as an example**.
+**Check out [my blog](http://normanew.com) as an example**.
 
-Just drop this theme in your Ghost theme folder (and exptract it!) and choose it in your Ghost admin dashboard (after restarting Ghost).
+If you give your images an alt text, it gets added automatically as figcaption beneath the image (sorry, no links or other HTML stuff).
 
-If you give your images an alt text, it gets added automatically as figcaption beneath the image (sorry, no links or other HTML stuff). Awesomeness!
+## Software Requirements
+- [Ghost] (https://github.com/TryGhost)
+
+## Getting Started
+1. You would need to clone this github repo `git clone git@github.com:normanew/readium.git` into your Ghost themes folder
+2. Change your theme from the general settings of Ghost
+
+## Required Configurations
+1. There are Twitter Metadata that you would need to change
+2. If you need to use the Google Analytics, please change the ID correspodingly.
 
 ## Features
 - Mobile-First Design Approach
@@ -38,23 +49,15 @@ While writing your article you decide it would be nice if the image wouldn't be 
 ```
 A DIV with the class "image-left" makes your image float left and only take up 50% of the space. Same goes btw for "image-right" as well :).
 
-#### Things to better not forget
+## Modifications from Readium 3
 
-You can find my Google Analytics Snippet in the default.hbs. If you want to use it, uncomment it and fill it with your credentials. Same goes for the Twitter sharing information inside the HEADER tag, right at the beginning of the default.hbs. I put comments there so you can find it easily.
-
-#### If your Ghost blog is self hosted:
-1. Copy the contents of the .zip file into /content/themes/ and unzip it.
-2. You need to restart your Ghost instance. After that you can switch themes inside your Ghost admin (http://your.domain.com/ghost/settings/general/). Scroll down and choose "Readium" from the theme dropdown.
-3. Now you can customize your logo, blog background image (if you choose to have one), as well as user images and texts to fit the theme.
-4. Have fun.
-
-#### If your Ghost blog is hosted on the Ghost hosting platform:
-1. Upload your Zip file via the Ghost admin panel.
-2. Switch your theme to the Readium theme.
-3. Have fun.
+I removed the pitch part since I didn't need it at my blog. Changes was also made to the Google Analytics tracking ID.
 
 #### Thanks go to...
+- [Readium 3](https://github.com/starburst1977/readium "Readium Github") by Sven Read
 - FontAwesome by Dave Gandy
 - Highlight JS by Ivan Sagalaev
 - The awesome guys that make Ghost
 - The really rad guys that design Medium
+
+

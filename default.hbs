@@ -12,28 +12,28 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
-    
     <meta name="MobileOptimized" content="320" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{meta_title}}">
     <meta name="twitter:description" content="{{meta_description}}">
-    <meta name="twitter:site" content="http://www.svenread.com"> <!-- Change this to your URL -->
-    <meta name="twitter:creator" content="@starburst1977"> <!-- Change this to your Twitter Handel -->
+    <meta name="twitter:site" content="http://normanew.com"> <!-- Change this to your URL -->
+    <meta name="twitter:creator" content="@normanemry"> <!-- Change this to your Twitter Handel -->
     <meta name="google-site-verification" content="">
     <meta property="fb:admins" content="">
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{meta_title}}">
     <meta property="og:description" content="{{meta_description}}">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/favicon.png" />
 
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/index.css"}}" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
     <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Source+Serif+Pro:400,400i,700,700i/Source+Sans+Pro:200,400,700">
-    
+
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <link rel="stylesheet" href="{{asset "js/highlight/styles/obsidian.css"}}">
 
@@ -50,31 +50,31 @@
         {{{body}}}
 
     </div>
-    
+
     {{navigation}}
-    
+
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
 
     {{! The main JavaScript file for Casper }}
-    
+
     {{#with post}}
         <script src="{{asset "js/highlight/highlight.pack.js"}}"></script>
         <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
         <script>hljs.initHighlightingOnLoad();</script>
     {{/with}}
-    
+
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
-    
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    
-      ga('create', 'UA-47305801-1', 'svenread.com');
+
+      ga('create', 'UA-63229801-1', 'auto');
       ga('send', 'pageview');
-    
+
     </script>
 
 </body>
